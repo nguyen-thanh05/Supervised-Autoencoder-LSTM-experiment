@@ -8,6 +8,8 @@ Supervised Autoencoder<sup>(1)</sup> definitely helps improve the performance of
 - Numpy 
 - Torchinfo
 - Matplotlib
+- Tensorboard 
+- tqdm
 
 
 # Citations
