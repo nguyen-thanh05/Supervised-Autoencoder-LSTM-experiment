@@ -9,6 +9,8 @@ The goal is to predicit the production rate of gas, water and oil over 157 times
 # Results
 Both the normal LSTM and Supervised Auto-encoder LSTM models can learn the trend of production quite well. However, SAE LSTM achieves a very slightly better result in terms of loss (Loss 170.7 for SAE LSTM and 175.6 for Traditional LSTM)
 
+Significantly, when the Pressure is high, the production rates drop to 0 in both models, which is the expected behaviour in real-life applications. 
+
 # Packages/Denpencies Requirements
 - GPU for training
 - Pytorch cuda 
